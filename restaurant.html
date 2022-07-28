@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>PizzaBurger</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link href="css/animate.css" rel="stylesheet" />
+		<link href="css/style.css" rel="stylesheet" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="header__container">
+				<a
+					class="logo animate__animated animate__fadeInLeft"
+					href="index.html"
+				>
+					<img class="logo" src="img/logo.svg" alt="Logo"
+				/></a>
+				<input
+					class="header__input input animate__animated animate__fadeInDown"
+					type="text"
+					placeholder="Адрес доставки"
+				/>
+				<div
+					class="header__buttons animate__animated animate__fadeInRight"
+				>
+					<button class="btn btn--blue">
+						<svg class="icon" id="icon-account">
+							<use xlink:href="img/sprite.svg#account"></use>
+						</svg>
+						<span class="header__txt"> Войти</span>
+					</button>
+					<button class="btn basket">
+						<svg class="icon" id="icon-cart">
+							<use xlink:href="img/sprite.svg#cart"></use>
+						</svg>
+						<span class="header__txt"> Корзина</span>
+					</button>
+				</div>
+				<!-- /.buttons -->
+			</div>
+			<!-- /.header__container -->
+		</header>
+
+		<div class="big-box">
+			<section class="restaurants">
+				<div class="restaurants__container">
+					<div class="restaurants__head restaurants__head--2">
+						<h2 class="restaurants__title">PizzaBurger</h2>
+						<div class="card__info-box">
+							<div class="card__rating">
+								<svg class="icon" id="icon-star">
+									<use xlink:href="img/sprite.svg#star"></use>
+								</svg>
+								4.5
+							</div>
+							<div class="card__price">От 1 900 ₽</div>
+							<div class="card__category">Русская кухня</div>
+						</div>
+					</div>
+					<div class="cards">
+						<div class="card">
+							<img
+								class="card__img"
+								src="img/cards/cards-pizza/p-1.png"
+								alt="Card 1"
+							/>
+							<div class="card__text-box">
+								<div class="card__head-box card__head-box--2">
+									<h3 class="card__title card__title--2">
+										Ролл угорь стандарт
+									</h3>
+									<p class="card__text">
+										Рис, угорь, соус унаги, кунжут,
+										водоросли нори.
+									</p>
+								</div>
+								<div class="card__info-box card__info-box--2">
+									<button class="btn btn--blue basket">
+										<span
+											class="header__txt header__txt--2"
+										>
+											В Корзину</span
+										>
+										<svg
+											class="icon icon--2"
+											id="icon-cart"
+										>
+											<use
+												xlink:href="img/sprite.svg#cart"
+											></use>
+										</svg>
+									</button>
+									<div class="card__price card__price--2">
+										250 ₽
+									</div>
+								</div>
+							</div>
+							<!-- /.card__text-box -->
+						</div>
+						<!-- /.card -->
+						<div class="card">
+							<img
+								class="card__img"
+								src="img/cards/cards-pizza/p-2.png"
+								alt="Card 2"
+							/>
+							<div class="card__text-box">
+								<div class="card__head-box card__head-box--2">
+									<h3 class="card__title card__title--2">
+										Калифорния лосось стандарт
+									</h3>
+									<p class="card__text">
+										Рис, лосось, авокадо, огурец, майонез,
+										икра масаго, водоросли нори.
+									</p>
+								</div>
+								<div class="card__info-box card__info-box--2">
+									<button class="btn btn--blue basket">
+										<span
+											class="header__txt header__txt--2"
+										>
+											В Корзину</span
+										>
+										<svg
+											class="icon icon--2"
+											id="icon-cart"
+										>
+											<use
+												xlink:href="img/sprite.svg#cart"
+											></use>
+										</svg>
+									</button>
+									<div class="card__price card__price--2">
+										250 ₽
+									</div>
+								</div>
+							</div>
+							<!-- /.card__text-box -->
+						</div>
+						<!-- /.card -->
+						<div class="card">
+							<img
+								class="card__img"
+								src="img/cards/cards-pizza/p-3.png"
+								alt="Card 3"
+							/>
+							<div class="card__text-box">
+								<div class="card__head-box card__head-box--2">
+									<h3 class="card__title card__title--2">
+										Окинава стандарт
+									</h3>
+									<p class="card__text">
+										Рис, креветка отварная, сыр сливочный,
+										лосось, огурец свежий...
+									</p>
+								</div>
+								<div class="card__info-box card__info-box--2">
+									<button class="btn btn--blue basket">
+										<span
+											class="header__txt header__txt--2"
+										>
+											В Корзину</span
+										>
+										<svg
+											class="icon icon--2"
+											id="icon-cart"
+										>
+											<use
+												xlink:href="img/sprite.svg#cart"
+											></use>
+										</svg>
+									</button>
+									<div class="card__price card__price--2">
+										250 ₽
+									</div>
+								</div>
+							</div>
+							<!-- /.card__text-box -->
+						</div>
+						<!-- /.card -->
+						<div class="card">
+							<img
+								class="card__img"
+								src="img/cards/cards-pizza/p-4.png"
+								alt="Card 4"
+							/>
+							<div class="card__text-box">
+								<div class="card__head-box card__head-box--2">
+									<h3 class="card__title card__title--2">
+										Цезарь маки хl
+									</h3>
+									<p class="card__text">
+										Рис, куриная грудка копченая, икра
+										масаго, томат, айсберг, соус цезарь...
+									</p>
+								</div>
+								<div class="card__info-box card__info-box--2">
+									<button class="btn btn--blue basket">
+										<span
+											class="header__txt header__txt--2"
+										>
+											В Корзину</span
+										>
+										<svg
+											class="icon icon--2"
+											id="icon-cart"
+										>
+											<use
+												xlink:href="img/sprite.svg#cart"
+											></use>
+										</svg>
+									</button>
+									<div class="card__price card__price--2">
+										250 ₽
+									</div>
+								</div>
+							</div>
+							<!-- /.card__text-box -->
+						</div>
+						<!-- /.card -->
+						<div class="card">
+							<img
+								class="card__img"
+								src="img/cards/cards-pizza/p-5.png"
+								alt="Card 5"
+							/>
+							<div class="card__text-box">
+								<div class="card__head-box card__head-box--2">
+									<h3 class="card__title card__title--2">
+										Ясай маки стандарт 185 г
+									</h3>
+									<p class="card__text">
+										Рис, помидор свежий, перец болгарский,
+										авокадо, огурец, айсберг
+									</p>
+								</div>
+								<div class="card__info-box card__info-box--2">
+									<button class="btn btn--blue basket">
+										<span
+											class="header__txt header__txt--2"
+										>
+											В Корзину</span
+										>
+										<svg
+											class="icon icon--2"
+											id="icon-cart"
+										>
+											<use
+												xlink:href="img/sprite.svg#cart"
+											></use>
+										</svg>
+									</button>
+									<div class="card__price card__price--2">
+										250 ₽
+									</div>
+								</div>
+							</div>
+							<!-- /.card__text-box -->
+						</div>
+						<!-- /.card -->
+						<div class="card">
+							<img
+								class="card__img"
+								src="img/cards/cards-pizza/p-6.png"
+								alt="Card 6"
+							/>
+							<div class="card__text-box">
+								<div class="card__head-box card__head-box--2">
+									<h3 class="card__title card__title--2">
+										Ролл с креветкой стандарт
+									</h3>
+									<p class="card__text">
+										Рис, водоросли нори, креветки отварные,
+										сыр сливочный, огурцы
+									</p>
+								</div>
+								<div class="card__info-box card__info-box--2">
+									<button class="btn btn--blue basket">
+										<span
+											class="header__txt header__txt--2"
+										>
+											В Корзину
+										</span>
+										<svg
+											class="icon icon--2"
+											id="icon-cart"
+										>
+											<use
+												xlink:href="img/sprite.svg#cart"
+											></use>
+										</svg>
+									</button>
+									<div class="card__price card__price--2">
+										250 ₽
+									</div>
+								</div>
+							</div>
+							<!-- /.card__text-box -->
+						</div>
+						<!-- /.card -->
+					</div>
+					<!-- /.cards -->
+				</div>
+			</section>
+		</div>
+
+		<footer class="footer">
+			<div class="footer__container">
+				<a class="logo" href="index.html">
+					<img class="footer__logo" src="img/logo.svg" alt="Logo"
+				/></a>
+				<ul class="footer__menu">
+					<li class="footer__menu-item">
+						<a class="footer__menu-link" href="#!">Ресторанам</a>
+					</li>
+					<li class="footer__menu-item">
+						<a class="footer__menu-link" href="#!">Курьерам</a>
+					</li>
+					<li class="footer__menu-item">
+						<a class="footer__menu-link" href="#!">Пресс-центр</a>
+					</li>
+					<li class="footer__menu-item">
+						<a class="footer__menu-link" href="#!">Контакты</a>
+					</li>
+				</ul>
+				<div class="footer__social">
+					<a class="footer__social-link" href="#!">
+						<img
+							class="footer__social-img"
+							src="img/icons/instagram.svg"
+							alt="instagram"
+						/>
+					</a>
+					<a class="footer__social-link" href="#!">
+						<img
+							class="footer__social-img"
+							src="img/icons/facebook.svg"
+							alt="facebook"
+						/>
+					</a>
+					<a class="footer__social-link" href="#!">
+						<img
+							class="footer__social-img footer__social-img--vk"
+							src="img/icons/vk.svg"
+							alt="vk"
+						/>
+					</a>
+				</div>
+			</div>
+		</footer>
+
+		<div class="modal modal--hidden">
+			<div class="modal-dialog">
+				<div class="modal-header">
+					<h3 class="modal-header__title">Корзина</h3>
+					<button class="modal-header__close">&times;</button>
+				</div>
+				<!-- /.modal-header -->
+				<div class="modal-body">
+					<div class="modal-body__row">
+						<div class="modal-body__row-name">
+							Ролл угорь стандарт
+						</div>
+						<strong class="modal-body__row-price"> 250 ₽ </strong>
+						<button class="modal-body__row-dec">-</button
+						><span class="modal-body__row-count">1</span>
+						<button class="modal-body__row-inc">+</button>
+					</div>
+					<div class="modal-body__row">
+						<div class="modal-body__row-name">
+							Ролл угорь стандарт
+						</div>
+						<strong class="modal-body__row-price"> 250 ₽ </strong>
+						<button class="modal-body__row-dec">-</button
+						><span class="modal-body__row-count">1</span>
+						<button class="modal-body__row-inc">+</button>
+					</div>
+					<div class="modal-body__row">
+						<div class="modal-body__row-name">
+							Ролл угорь стандарт
+						</div>
+						<strong class="modal-body__row-price"> 250 ₽ </strong>
+						<button class="modal-body__row-dec">-</button
+						><span class="modal-body__row-count">1</span>
+						<button class="modal-body__row-inc">+</button>
+					</div>
+					<div class="modal-body__row">
+						<div class="modal-body__row-name">
+							Ролл угорь стандарт
+						</div>
+						<strong class="modal-body__row-price"> 250 ₽ </strong>
+						<button class="modal-body__row-dec">-</button
+						><span class="modal-body__row-count">1</span>
+						<button class="modal-body__row-inc">+</button>
+					</div>
+					<div class="modal-body__row">
+						<div class="modal-body__row-name">
+							Ролл угорь стандарт
+						</div>
+						<strong class="modal-body__row-price"> 250 ₽ </strong>
+						<button class="modal-body__row-dec">-</button
+						><span class="modal-body__row-count">1</span>
+						<button class="modal-body__row-inc">+</button>
+					</div>
+				</div>
+				<!-- /.modal-body -->
+				<div class="modal-footer">
+					<span class="modal-footer__price">1250 ₽</span>
+					<div class="modal-footer__buttons">
+						<button class="btn btn--blue">Оформить заказ</button
+						><button class="btn">Отмена</button>
+					</div>
+				</div>
+				<!-- /.modal-footer -->
+			</div>
+		</div>
+
+		<script src="script/script.js"></script>
+	</body>
+</html>
